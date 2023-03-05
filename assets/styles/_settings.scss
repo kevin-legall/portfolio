@@ -1,0 +1,82 @@
+@font-face {
+    font-family: "Light";
+    src: url(../fonts/Outfit-Light.ttf);
+}
+@font-face {
+    font-family: "Medium";
+    src: url(../fonts/Outfit-Medium.ttf);
+}
+@font-face {
+    font-family: "Bold";
+    src: url(../fonts/Outfit-Bold.ttf);
+}
+
+$white: #E1E6ED;
+$grey: rgba(0, 0, 0, 0.208);
+$purple: #746AEA;
+$yellow: #FDD037;
+$black: #252525;
+
+$lightFont: "Light", sans-serif;
+$mediumFont: "Medium", sans-serif;
+$boldFont: "Bold", sans-serif;
+
+
+::selection {
+    background: $purple;
+    color: $white;
+}
+
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: $mediumFont;
+    background: $white;
+}
+
+main {
+    width: 90%;
+    margin: 0 auto;
+}
+
+section, header {
+    min-height: 100vh;
+}
+
+footer {
+    height: 30vh;
+}
+
+h1 {
+    font-family: $boldFont;
+}
+
+p {
+    font-family: $lightFont;
+}
+
+a {
+    user-select: none;
+}
+
+img {
+    user-select: none;
+}
+ul {
+    list-style: none;
+}
+
+#cursive {
+    color: $purple;
+    font-family: cursive;
+    font-size: 1.8rem;
+}
+

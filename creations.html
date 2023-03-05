@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/styles/index.css" />
+    <link rel="shortcut icon" href="./assets/images/" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+    <title>Portfolio - Kévin</title>
+  </head>
+  <body>
+    <nav>
+      <a href="index.html"><div class="img-nav"><img src="./assets/images/logo-portfolio-white.png" alt=""></div></a>
+      <ul class="nav-ul">
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="about.html">A propos</a></li>
+          <li><a href="creations.html">Mes créations</a></li>
+          <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="socials">
+          <div class="social-btn"></div>
+          <ul class="nav-ul-mobile">
+              <li><a href="index.html">Accueil</a></li>
+              <li><a href="about.html">A propos</a></li>
+              <li><a href="creations.html">Mes créations</a></li>
+              <li><a href="contact.html">Contact</a></li>
+          </ul>
+      </div>
+  </nav>
+    <main>
+      <section id="creations-section">
+        <h2>Mes différents projets</h2>
+        <p>
+          Voici quelques une de mes créations dans l'ordre chronologique au
+          cours de mon apprentissage du développement web. Cliquez sur les
+          boutons ci-dessous pour filtrer les réponses
+        </p>
+        <ul class="btn-ul">
+          <li><button class="checked">Tous</button></li>
+          <li><button class="">Sites web</button></li>
+          <li><button class="">Applications mobiles</button></li>
+          <li><button class="">Tableau de bord</button></li>
+        </ul>
+        <div class="creations">
+          <div class="creation">
+            <div class="creation-img">
+              <img src="./assets/images/mongrandfrere.jpg" />
+            </div>
+            <div class="creation-infos">
+              <div class="creation-desc">
+                <h4>Projet MonGrandFrère</h4>
+                <ul class="filter-nav">
+                  <li class="filter html">HTML</li>
+                  <li class="filter css">CSS</li>
+                  <li class="filter js">JS</li>
+                </ul>
+              </div>
+              <a class="btn" href="creation.php?mongrandfrere">←</a>
+            </div>
+          </div>
+          <div class="creation">
+            <div class="creation-img">
+              <img src="./assets/images/calculator.jpg" />
+            </div>
+            <div class="creation-infos">
+              <div class="creation-desc">
+                <h4>Calculator App</h4>
+                <ul class="filter-nav">
+                  <li class="filter html">HTML</li>
+                  <li class="filter css">CSS</li>
+                  <li class="filter js">JS</li>
+                </ul>
+              </div>
+              <a class="btn" href="creation.php?calculator">←</a>
+            </div>
+          </div>
+          <div class="creation">
+            <div class="creation-img">
+              <img src="./assets/images/montagne.jpg" />
+            </div>
+            <div class="creation-infos">
+              <div class="creation-desc">
+                <h4>La montagne website</h4>
+                <ul class="filter-nav">
+                  <li class="filter html">HTML</li>
+                  <li class="filter css">CSS</li>
+                  <li class="filter sass">SASS</li>
+                </ul>
+              </div>
+              <a class="btn" href="creation.php?montagne">←</a>
+            </div>
+          </div>
+          <div class="creation">
+            <div class="creation-img">
+              <img src="./assets/images/resto.jpg" />
+            </div>
+            <div class="creation-infos">
+              <div class="creation-desc">
+                <h4>"Le resto" website</h4>
+                <ul class="filter-nav">
+                  <li class="filter html">HTML</li>
+                  <li class="filter css">CSS</li>
+                  <li class="filter sass">SASS</li>
+                </ul>
+              </div>
+              <a class="btn" href="creation.php?resto">←</a>
+            </div>
+          </div>
+          <div class="creation">
+            <div class="creation-img">
+              <img src="./assets/images/gamingcampus.jpg" />
+            </div>
+            <div class="creation-infos">
+              <div class="creation-desc">
+                <h4>Gaming Campus website</h4>
+                <ul class="filter-nav">
+                  <li class="filter html">HTML</li>
+                  <li class="filter css">CSS</li>
+                </ul>
+              </div>
+              <a class="btn" href="creation.php?gamingcampus">←</a>
+            </div>
+          </div>
+          <div class="creation">
+            <div class="creation-img">
+              <img src="./assets/images/helium.jpg" />
+            </div>
+            <div class="creation-infos">
+              <div class="creation-desc">
+                <h4>Helium one-page website</h4>
+                <ul class="filter-nav">
+                  <li class="filter html">HTML</li>
+                  <li class="filter css">CSS</li>
+                </ul>
+              </div>
+              <a class="btn" href="creation.php?helium">←</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <h3>Vous désirez discuter de votre projet ?</h3>
+      <h3>Contactez-moi dès maintenant 👇</h3>
+      <a href="contact.html" class="primary-btn"
+        >Construisons votre projet ensemble</a
+      >
+      <p>Copyright © Kévin Le Gall | <span id="year"></span></p>
+    </footer>
+
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>

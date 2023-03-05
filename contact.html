@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/styles/index.css">
+    <link rel="shortcut icon" href="./assets/images/" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+    <title>Portfolio - Kévin</title>
+</head>
+<body>
+    <nav>
+        <a href="index.html"><div class="img-nav"><img src="./assets/images/logo-portfolio-white.png" alt=""></div></a>
+        <ul class="nav-ul">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="about.html">A propos</a></li>
+            <li><a href="creations.html">Mes créations</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="socials">
+            <div class="social-btn"></div>
+            <ul class="nav-ul-mobile">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="about.html">A propos</a></li>
+                <li><a href="creations.html">Mes créations</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <div class="form-contact">
+            <div class="form-infos">
+                <h2>Discutons ensemble de votre projet</h2>
+                <div class="contact">
+                    <h4>Envoyez-moi un e-mail !</h4>
+                    <p>Je suis entièrement disponible en dehors de mes heures de formation pour en discuter</p>
+                    <a href="mailto:legall.kevin5627@gmail.com">legall.pro56@gmail.com</a>
+                </div>
+                <div class="contact">
+                    <h4>Appelez moi !</h4>
+                    <p>Je suis entièrement disponible en dehors de mes heures de formation pour en discuter</p>
+                    <a href="tel:0750454403">07.50.45.44.03</a>
+                </div>
+            </div>
+            <form action="https://formsubmit.co/c665214ab6373167673f1327f544fe60" method="POST" name="form-contact">
+                <div class="headForm"></div>
+                <h2>Restons en contact</h2>
+                <div class="page" id='page1'>
+                    <div>
+                        <label class="infos" for="name">Nom</label>
+                        <input required name="nom" type="text" placeholder="Ex: Dupont">
+                    </div>
+                    <div>
+                        <label class="infos" for="surname">Prénom</label>
+                        <input name="prenom" type="text" placeholder="Ex: Antoine">
+                    </div>
+                    <div>
+                        <label class="infos" for="email">Email</label>
+                        <input required name="email" type="email" placeholder="Ex: antoine@gmail.com">
+                    </div>
+                    <button type='button'>Suivant</button>
+                </div>
+                <div class="page" id='page2'>
+                    <div class="checkboxes">
+                        <input name="particulier" class="check1" type="checkbox" id="particulier">
+                        <label class="checkbox1" for="particulier">
+                            <h3>Particulier</h3>
+                            <p>Vous êtes un particulier</p>
+                        </label>
+                        <input name="professionnel" class="check2" type="checkbox" id="professionnel">
+                        <label class="checkbox2" for="professionnel">
+                            <h3>Professionnel</h3>
+                            <p>Vous etes un professionnel</p>
+                        </label>
+                    </div>
+                    <button type='button'>Suivant</button>
+                </div>
+                <div class="page" id='page3'>
+                    <div class="">
+                        <label for="">Message</label>
+                        <textarea required name="message" type="text" placeholder="Ex: Je vous contacte dans le but de..."></textarea>
+                    </div>
+                    <button type='submit'>Terminer</button>
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
